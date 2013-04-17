@@ -1,17 +1,11 @@
 {% ckan_extends %}
 
-{# This is the header_site_navigation block from core, but with the Group link
-   removed #}
-{% block header_site_navigation %}
-  <nav class="section navigation">
-    <ul class="nav nav-pills">
-      {% block header_site_navigation_tabs %}
-      {{ h.build_nav_main(
-        ('search', _('Datasets')),
-        ('organizations_index', _('Organizations')),
-        ('about', _('About'))
-      ) }}
-      {% endblock %}
-    </ul>
-  </nav>
+{# This is the header_site_navigation_tabs block copy-pasted from core, but
+   with the Groups link removed #}
+{% block header_site_navigation_tabs %}
+  {{ h.build_nav_main(
+    ('search', _('Datasets')),
+    ('organizations_index', _('Organizations')),
+    ('about', _('About'))
+  ) }}
 {% endblock %}
