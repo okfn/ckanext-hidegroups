@@ -1,5 +1,0 @@
-
-        [ckan.plugins]
-	# Add plugins here, eg
-    hidegroups=ckanext.hidegroups.plugin:HideGroupsPlugin
-	

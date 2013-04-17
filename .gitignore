@@ -1,2 +1,2 @@
 *.pyc
-ckanext_hide_groups.egg-info/*
+ckanext_hidegroups.egg-info/*
