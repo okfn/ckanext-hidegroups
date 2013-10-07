@@ -5,3 +5,7 @@ and so don't want this feature showing up on their pages.
 So far not all signs of the groups feature are hidden, only some of the most
 obvious ones (eg. the groups link in the main navigation header, and the groups
 facet box on the search page).
+
+To install, activate your CKAN virtualenv then run:
+
+    pip install -e 'git+git://github.com/okfn/ckanext-hidegroups.git#egg=ckanext-hidegroups'
